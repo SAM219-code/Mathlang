@@ -1,14 +1,10 @@
 Informe del Lenguaje de Programación: MathLang
-=================================================
 
 1. Nombre del Lenguaje: MathLang
 
-2. Descripción General
-----------------------
-MathLang es un lenguaje de programación simbólico, con sintaxis inspirada en Python, orientado a resolver problemas matemáticos. Fue diseñado para ser expresivo, accesible y útil para estudiantes y docentes en contextos educativos, especialmente en cálculo, álgebra y resolución simbólica.
+2. Descripción General: MathLang es un lenguaje de programación simbólico, con sintaxis inspirada en Python, orientado a resolver problemas matemáticos. Fue diseñado para ser expresivo, accesible y útil para estudiantes y docentes en contextos educativos, especialmente en cálculo, álgebra y resolución simbólica.
 
-3. Estructura del Lenguaje
---------------------------
+3. Estructura del Lenguaje:
 - Declaración de variables simbólicas: `x = simbolo()`
 - Definición de funciones: `funcion f(x) = x^2 + 2*x + 1`
 - Derivación: `df = derivar(f, x)`
@@ -17,8 +13,7 @@ MathLang es un lenguaje de programación simbólico, con sintaxis inspirada en P
 - Resolución de ecuaciones: `raices = resolver(f(x) = 0, x)`
 - Salida: `mostrar(expr)`
 
-4. Definición Formal
---------------------
+4. Definición Formal:
 Gramática EBNF simplificada:
 <programa> ::= {<instruccion>}
 <instruccion> ::= <asignacion> | <funcion> | <mostrar> | <llamada>
@@ -34,8 +29,7 @@ Tipos de datos:
 - Numérico (int, float)
 - Funciones lambda simbólicas
 
-5. Justificación del Diseño
----------------------------
+5. Justificación del Diseño:
 Motivaciones:
 - Usar un motor simbólico robusto (SymPy)
 - Crear un lenguaje de dominio específico (DSL) para matemáticas
@@ -46,8 +40,7 @@ Trade-offs:
 - Menor flexibilidad para tareas no matemáticas
 - Parsing simplificado vs. extensibilidad compleja
 
-6. Conceptos Aplicados del Curso
---------------------------------
+6. Conceptos Aplicados del Curso:
 - Tipos de datos: simbólicos, numéricos
 - Evaluación de expresiones
 - Ámbito de variables
@@ -59,7 +52,7 @@ Trade-offs:
 - Interprete básico
 - Sintaxis personalizada
 
-7. Ejemplo de Programa
+7. Ejemplo de Programa:
 ----------------------
 x = simbolo()
 funcion f(x) = x^2 + 2*x + 1
@@ -72,14 +65,9 @@ mostrar(area)
 raices = resolver(f(x) = 0, x)
 mostrar(raices)
 
-8. Coherencia Global
---------------------
+8. Coherencia Global:
 El lenguaje fue desarrollado con un diseño integrado:
 - El código fuente ejecuta correctamente los ejemplos.
 - La documentación está alineada con la sintaxis.
 - La estructura del proyecto es clara y reproducible.
 
-9. Créditos
------------
-Desarrollado por [Nombre del estudiante]
-Curso de Lenguajes de Programación - 2025
