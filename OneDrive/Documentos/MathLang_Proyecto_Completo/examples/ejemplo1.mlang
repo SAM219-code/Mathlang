@@ -1,0 +1,11 @@
+# Ejemplo básico del lenguaje MathLang
+x = simbolo()
+funcion f(x) = x^2 + 3*x + 5
+df = derivar(f, x)
+mostrar(df)
+v = f(2)
+mostrar(v)
+area = integrar(f, x, 0, 1)
+mostrar(area)
+raices = resolver(f(x) = 0, x)
+mostrar(raices)
